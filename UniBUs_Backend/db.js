@@ -4,7 +4,8 @@ require('dotenv').config();
 
 // Rest of your code...
 
-mongoose.connect(process.env.URI)
+
+mongoose.connect("mongodb+srv://sharmaji2002178:2LPmMA73c3pXdqPG@cluster0.baq0gyk.mongodb.net/bus")
 .then(() => console.log("Connected to database"))
 .catch((err) => console.log(err));
 
